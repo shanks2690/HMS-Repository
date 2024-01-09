@@ -1,0 +1,24 @@
+server:
+  port: 6000
+
+spring:
+  mail:
+    host: smtp.gmail.com
+    username: shashankk.mtoc@gmail.com
+    password: dzog vpkr vtnp mdls
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable:true
+
+
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+  instance:
+    prefer-ip-address: true
