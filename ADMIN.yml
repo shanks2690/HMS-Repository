@@ -7,13 +7,3 @@ spring:
       uri: mongodb+srv://Shanksazure:Shashank123@shashankazure.ca869dx.mongodb.net/
       port: 27017
       database: Admin_HMS
-
-
-eureka:
-  client:
-    fetch-registry: true
-    register-with-eureka: true
-    service-url:
-      defaultZone: http://localhost:8761/eureka
-  instance:
-    prefer-ip-address: true
