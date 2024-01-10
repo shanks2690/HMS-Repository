@@ -5,7 +5,7 @@ spring:
   mail:
     host: smtp.gmail.com
     username: shashankk.mtoc@gmail.com
-    password: dzog vpkr vtnp mdls
+    password: zuav femk pgoj efak
     properties:
       mail:
         smtp:
