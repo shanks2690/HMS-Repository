@@ -4,6 +4,6 @@ server:
 spring:
   data:
     mongodb:
-      uri: mongodb+srv://Shanksazure:Shashank123@shashankazure.ca869dx.mongodb.net/
+     uri: mongodb://admin:password@localhost:27017
       port: 27017
       database: Admin_HMS
