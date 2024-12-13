@@ -6,10 +6,10 @@ server:
 
 spring:
   datasource:
-    url: jdbc:postgresql://database-pg.czvjklgff5zz.ap-south-1.rds.amazonaws.com:5432/Patient_DB
-    driver-class-name: org.postgresql.Driver
-    username: postgresAWS
-    password: Shashank123
+   url: jdbc:postgresql://localhost:5432/Patient_db
+   driver-class-name: org.postgresql.Driver
+   username: admin
+   password: password
 
 
 
