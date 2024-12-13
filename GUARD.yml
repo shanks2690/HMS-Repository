@@ -7,8 +7,8 @@ server:
 spring:
   data:
     mongodb:
-      uri: mongodb://admin2:password@localhost:27018
-      port: 27018
+      uri: mongodb://admin:password@localhost:27017
+      port: 27017
       database: Guard_DB
 
 
