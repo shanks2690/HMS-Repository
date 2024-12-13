@@ -1,10 +1,10 @@
 
-server:
-  port: 8008
-spring:
-  data:
-    mongodb:
-      uri: mongodb://admin2:password@localhost:27018
-      port: 27018
-      database: Admin_HMS
+# server:
+#   port: 8008
+# spring:
+#   data:
+#     mongodb:
+#       uri: mongodb://admin2:password@localhost:27018
+#       port: 27018
+#       database: Admin_HMS
 
