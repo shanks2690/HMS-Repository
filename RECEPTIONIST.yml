@@ -4,10 +4,10 @@ server:
 
 spring:
   datasource:
-    url: jdbc:postgresql://database-pg.czvjklgff5zz.ap-south-1.rds.amazonaws.com:5432/Receptionist_DB
+   url: jdbc:postgresql://localhost:5432/hms
     driver-class-name: org.postgresql.Driver
-    username: postgresAWS
-    password: Shashank123
+    username: admin
+    password: password
 
 
   jpa:
