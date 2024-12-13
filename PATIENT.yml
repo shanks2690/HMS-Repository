@@ -6,11 +6,10 @@ server:
 
 spring:
   datasource:
-   url: jdbc:postgresql://localhost:5432/Patient_db
+   url: jdbc:postgresql://localhost:5432/patient_db
    driver-class-name: org.postgresql.Driver
    username: admin
    password: password
-
 
 
   jpa:
