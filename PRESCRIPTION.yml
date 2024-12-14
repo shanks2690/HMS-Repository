@@ -1,11 +1,11 @@
 server:
   port: 8006
   
-spring: 
+spring:
   data:
     mongodb:
-      uri: mongodb+srv://Shanksazure:Shashank123@shashankazure.ca869dx.mongodb.net/
+      uri: mongodb://admin:password@localhost:27017
       port: 27017
-      database: Prsc_DB
+      database: Presctiption_DB
 
 
