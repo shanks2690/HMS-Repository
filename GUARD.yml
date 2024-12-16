@@ -11,6 +11,13 @@ spring:
       port: 27017
       database: Guard_DB
 
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://host.docker.internal:8761/eureka
+
 secrets:
   jwt-secret-key: YYwzirRgOIRLejdymwtcw1IyWlYGVd5sfeIT3807hfPyVTFBqjVIBI7PatO8DLXt
 
