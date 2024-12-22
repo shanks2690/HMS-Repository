@@ -2,10 +2,10 @@
 server:
   port: 8008
 
-# spring:
-#   data:
-#     mongodb:
-#       uri: mongodb://admin:password@localhost:27017
-#       port: 27017
-#       database: Guard_DB
+spring:
+  data:
+    mongodb:
+      uri: mongodb://admin:password@localhost:27017
+      port: 27017
+      database: Guard_DB
 
