@@ -9,3 +9,17 @@ spring:
       port: 27019
       database: Guard_DB
 
+  kafka:
+    consumer:
+      bootstrap-server: kafka:9092
+      group-id: ADMINBOX
+      auto-offset-reset: earliest
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.springframework.kafka.support.serializer.JsonDeserializer
+      properties:
+        spring:
+          json:
+            trusted:
+              packages: "*"
+  config:
+    import: configserver:http://config-server:8888
