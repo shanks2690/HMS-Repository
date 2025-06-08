@@ -1,0 +1,11 @@
+
+server:
+  port: 8008
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb://admin:password@mongo-db:27019/
+      port: 27019
+      database: Guard_DB
+
